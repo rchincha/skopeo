@@ -6,7 +6,7 @@ require (
 	github.com/containers/common v0.11.2
 	github.com/containers/image/v5 v5.4.4
 	github.com/containers/ocicrypt v1.0.2
-	github.com/containers/storage v1.19.2
+	github.com/containers/storage v1.20.1
 	github.com/docker/docker v1.4.2-0.20191219165747-a9416c67da9f
 	github.com/dsnet/compress v0.0.1 // indirect
 	github.com/go-check/check v0.0.0-20180628173108-788fd7840127
@@ -20,8 +20,10 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.0
 	github.com/syndtr/gocapability v0.0.0-20180916011248-d98352740cb2
 	go4.org v0.0.0-20190218023631-ce4c26f7be8e // indirect
 	gopkg.in/yaml.v2 v2.3.0
 )
+
+replace github.com/containers/image/v5 => github.com/rchincha/image/v5 v5.0.0-20200603230630-dd88c404c0c2
