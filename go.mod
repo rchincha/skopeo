@@ -25,3 +25,5 @@ require (
 	go4.org v0.0.0-20190218023631-ce4c26f7be8e // indirect
 	gopkg.in/yaml.v2 v2.3.0
 )
+
+replace github.com/containers/image/v5 => github.com/anuvu/image/v5 v5.0.0-20200605191954-29aaf661e40a
